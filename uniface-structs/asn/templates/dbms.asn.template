@@ -1,0 +1,19 @@
+[DRIVER_SETTINGS]
+SLE		U1.0
+USYS$SLE_PARAMS	create db = on
+TXT=U1.0
+SOP=U2.0
+
+[PATHS]
+$DBMS        SLE:.\dbms\repo.db
+$DBMS_DEF    SLE:.\dbms\data.db
+
+$SYS    $DBMS
+$UUU    $DBMS
+$IDF    $DBMS
+$DEF    $DBMS_DEF
+
+$TXT txt:
+
+
+

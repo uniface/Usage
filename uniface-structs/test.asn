@@ -1,0 +1,54 @@
+#file			usysadm:idf.asn
+
+[SETTINGS]
+$language=USA
+$variation=DEMO
+$enhanced_edit=all
+;$ioprint=512
+$putmess_logfile = test.log
+;$proc_tracing=true
+;$proc_tracing_addition=[%%$componentname%%%]
+;$search_object=dbms_first
+;$search_descriptor=dbms_first
+
+[FILES]
+usys:uobj.dol		.\cmp\uobj.dol
+usys:uana.urr		.\cmp\uana.urr
+usys:udesc.urr		.\cmp\udesc.urr
+
+*.aps				.\cmp\*.aps
+*.esv				.\cmp\*.esv
+*.frm				.\cmp\*.frm
+*.rpt				.\cmp\*.rpt
+*.ssv				.\cmp\*.ssv
+*.svc				.\cmp\*.svc
+*.usp				.\cmp\*.usp
+
+*.*sym				.\sym\*.*sym
+
+*.xml				.\xml\*.xml
+;*.xsd				.\xml\*.xsd
+
+[PATHS]
+$SOL sol:nmpipe UF96Structs:|dba|dba
+$TXT txt:
+
+$DEF $SOL
+$UUU $SOL
+$IDF $SOL
+$SYS $SOL
+$WFM $SOL
+
+[ENTITIES]
+
+[SERVICES_EXEC]
+
+[USER_3GL]
+
+[LOGICALS]
+
+[DRIVER_SETTINGS]
+SOL=U4.0
+TXT=U1.0
+SOP=U2.0
+
