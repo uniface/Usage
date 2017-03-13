@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8' ?>
 <!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
 <!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
-<UNIFACE release="9.6" xmlengine="2.0">
+<UNIFACE release="9.7" xmlengine="2.0">
 <TABLE>
 <DSC name="USMENU" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
  rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
@@ -33,7 +33,8 @@
 <DAT name="UVAR">USYS</DAT>
 <DAT name="ULAN">USA</DAT>
 <DAT name="MENUTYPE">P</DAT>
-<DAT name="UTIMESTAMP">2015-10-02T00:18:14.00</DAT>
+<DAT name="UTIMESTAMP">2012-08-28T23:41:28.00</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Additional menu</DAT>
 </OCC>
 </TABLE>
 <TABLE>
@@ -84,13 +85,13 @@
 <DAT name="ULAN">USA</DAT>
 <DAT name="UTECHSEQ">1</DAT>
 <DAT name="USEQ">1</DAT>
-<DAT name="UTIMESTAMP">2015-10-02T00:23:13.00</DAT>
-<DAT name="UENABLE">F</DAT>
+<DAT name="UTIMESTAMP">2016-02-22T14:14:20.00</DAT>
+<DAT name="UENABLE">T</DAT>
 <DAT name="UHIDE">F</DAT>
 <DAT name="UCHECK">F</DAT>
-<DAT name="REFTYPE">I</DAT>
+<DAT name="REFTYPE">C</DAT>
 <DAT name="UCASCADE">FILESYNC</DAT>
-<DAT name="TITLE">UnifaceVC</DAT>
+<DAT name="TITLE" xml:space='preserve'>File Sync</DAT>
 <DAT name="UCREATE">xl=</DAT>
 </OCC>
 </TABLE>
