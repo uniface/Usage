@@ -30,6 +30,7 @@
 		<folder name=".\dbms" />
 		<folder name=".\log" />
 		<folder name=".\lst" />
+		<folder name=".\dtd" />
 	</folders>
 
 	<build-switches asn=".\asn\setup.asn"
