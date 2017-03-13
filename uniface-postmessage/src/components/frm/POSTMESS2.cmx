@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8' ?>
 <!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
 <!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
-<UNIFACE release="9.6" xmlengine="2.0">
+<UNIFACE release="9.7" xmlengine="2.0">
 <TABLE>
 <DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
  rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
@@ -167,8 +167,8 @@
  pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
 </DSC>
 <OCC>
-<DAT name="UTIMESTAMP">2015-08-21T17:52:16.00</DAT>
-<DAT name="UCOMPSTAMP">2015-08-21T17:43:09.00</DAT>
+<DAT name="UTIMESTAMP">2017-03-13T01:58:44.00</DAT>
+<DAT name="UCOMPSTAMP">2017-03-13T12:58:45.00</DAT>
 <DAT name="ULABEL">POSTMESS2</DAT>
 <DAT name="UDESCR" xml:space='preserve'>POSTMESS with UROUTMON</DAT>
 <DAT name="WVPOS">2</DAT>
@@ -325,7 +325,6 @@ endif
 exit (0)
 #else
 #endif</DAT>
-<DAT name="MENU">debug</DAT>
 <DAT name="ASYNC" xml:space='preserve'>MESSAGE.E1 = "NEWS FLASH :- %%$msgId%%%-%%$msgData"
 </DAT>
 <DAT name="FORMPIC" xml:space='preserve'>
@@ -933,7 +932,7 @@ activate "UROUTMON".get_clients("C","","","","URCLIENTS")</DAT>
 <DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
 </OCC>
 <OCC>
-<DAT name="UTIMESTAMP">2011-03-15T14:11:31.00</DAT>
+<DAT name="UTIMESTAMP">2017-03-13T01:58:11.00</DAT>
 <DAT name="ULABEL">UR_PORT</DAT>
 <DAT name="GRP">E1</DAT>
 <DAT name="UBASE">DUMMY</DAT>
@@ -943,6 +942,7 @@ activate "UROUTMON".get_clients("C","","","","URCLIENTS")</DAT>
 <DAT name="INTERFACEMOD">N6</DAT>
 <DAT name="WIDGETTYPE">EDITBOX</DAT>
 <DAT name="UINHERIT">F</DAT>
+<DAT name="VCHANGED" xml:space='preserve'>;  see the comments in Value Changed trigger of HOSTNAME</DAT>
 <DAT name="INITVALUE">13001</DAT>
 <DAT name="UISOBJID">F</DAT>
 <DAT name="HTML_CTRLTYPE">U_INPUT</DAT>

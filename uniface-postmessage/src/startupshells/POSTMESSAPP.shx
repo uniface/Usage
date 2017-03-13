@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8' ?>
 <!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
 <!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
-<UNIFACE release="9.6" xmlengine="2.0">
+<UNIFACE release="9.7" xmlengine="2.0">
 <TABLE>
 <DSC name="UAPPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
  rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="300" charset=".U">
@@ -73,10 +73,12 @@
  pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
 </DSC>
 <OCC>
-<DAT name="UTIMESTAMP">2015-08-21T18:01:34.00</DAT>
+<DAT name="UTIMESTAMP">2017-03-13T01:59:03.00</DAT>
 <DAT name="ULABEL">POSTMESSAPP</DAT>
 <DAT name="UDESCR" xml:space='preserve'>App shell for POSTMESS2</DAT>
+<DAT name="HMAX">APS</DAT>
 <DAT name="INIT" xml:space='preserve'>Activate "POSTMESS2".exec()</DAT>
+<DAT name="MENU">debug</DAT>
 <DAT name="ASYNC" xml:space='preserve'>message/info "Trapped by Startup Shell:- %%$msgId%%%-%%$msgData "</DAT>
 <DAT name="SCREENPIC" xml:space='preserve'>&uFRM;TYP=F&uSEP;NAM=MESSAGE&uSEP;WID=80&uSEP;HEI=1&uSEP;HOC=80&uSEP;VOC=1&uFRM;
 &uFRM;TYP=F&uSEP;NAM=FORMAREA&uSEP;WID=80&uSEP;HEI=23&uSEP;HOC=80&uSEP;VOC=23&uFRM;</DAT>

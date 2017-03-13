@@ -7,4 +7,4 @@ $putmess_logfile   .\log\idf_%p.log
 
 [RESOURCES]
 <uniface_packages_path>VersionControl\VersionControl.uar
-<uniface_packages_path>VersionControl\UnifaceMeta.uar
+<uniface_packages_path>VersionControl\MetaTools.uar

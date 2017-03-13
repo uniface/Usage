@@ -37,9 +37,11 @@
 
   <shortcuts>
   	<shortcut name='Postmessage - Development'
-              target='%USYS96%\common\bin\idf.exe'
-              args='/adm="%USYS96%\uniface\adm\" /asn=./asn/idf.asn ?' />
-
+              target='%USYS97%\common\bin\idf.exe'
+              args='/adm="%USYS97%\uniface\adm\" /asn=./asn/idf.asn ?' />
+	<shortcut name='Postmessage App'
+              target='%USYS97%\common\bin\uniface.exe'
+              args='/adm="%USYS97%\uniface\adm\" /asn=./asn/idf.asn POSTMESSAPP' />
     
     </shortcuts>
 
