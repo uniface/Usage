@@ -1,8 +1,7 @@
-DSP Charts - Debug.lnk
-DSP Charts - Development.lnk
 UDBG.CNF
 bin/
 asn/dbms_local.asn
+asn/vc.asn
 asn/urouter.asn
 dbms/source_repo.db
 log/
@@ -13,7 +12,7 @@ asn/setup.asn
 project.setup.xml
 asn/idf.asn
 src/library/menu/USYS/USA/FILESYNC.mnx
-src/signatures/
-DSP Charts - Build.lnk
+src/library/menu/USYS/USA/ADDITIONAL.mnx
 build/
 Postmessage - Development.lnk
+Postmessage App.lnk
