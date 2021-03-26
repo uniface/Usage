@@ -16,7 +16,8 @@ This sample has been written and tested with:
 ## Setup ##
 
  * This project can be downloaded using the WAS plugin (https://github.com/uniface/WASListener), compiled and run.
- * If you are not using the default urouter port 13001, please set as appropriate in the setting setting of you ide / runtime assignment file using $DEFAULT_NET e.g. $DEFAULT_NET tcp:localhost+13002
+ * If you are not using the default urouter port 13001, please set as appropriate in the settings section of your ide / runtime assignment file using $DEFAULT_NET e.g.
+   *  $DEFAULT_NET tcp:localhost+13002
 
  
 ## Contributing to the project ##
@@ -24,8 +25,3 @@ This sample has been written and tested with:
  * Verify that WASListener is syncing the Uniface repository with the WorkArea sub folder.
  * Make some changes in the repository and sync the WorkArea folder via the menu: 'WorkArea Export/Revert'
  * Use the git command line or your favourite tool to create pull requests.
- 
-## Contributors ##
-
-* Eddy Knochs
-* Jason Huggins
