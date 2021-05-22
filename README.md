@@ -15,7 +15,7 @@ This sample has been written and tested with:
 
 ## Setup ##
 
- * This project can be downloaded using the WAS plugin (https://github.com/uniface/WASListener), compiled and run.
+ * This project can be synchronized using the WAS plugin (https://github.com/uniface/WASListener), compiled and run.
  * If you are not using the default urouter port 13001, please set as appropriate in the settings section of your ide / runtime assignment file using $DEFAULT_NET e.g.
    *  $DEFAULT_NET tcp:localhost+13002
 
